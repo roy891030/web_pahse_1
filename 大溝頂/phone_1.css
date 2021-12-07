@@ -1,0 +1,92 @@
+@media only screen and (min-width: 0px) and (max-width: 320px){
+    .nav{
+        position: fixed;
+        top: 50%;
+        right: 0;
+    }
+    .nav ul li{
+        width: 10px;
+        height: 10px;
+        margin: 10px;
+        background-color: #fff;
+        box-shadow: 1px 1px 1px rgba(0,0,0,0.5) inset;
+        cursor: pointer;
+    }
+    .nav ul .active{
+        background-color: #43A55F;
+    }
+    
+    
+    html{
+        /*設定網頁背景色*/
+        background-color: #2e303e;
+      }
+    #big{
+
+        width: 99%;
+    }
+    .header{
+        font-size: 20px;
+        color:aliceblue
+    }
+    .para{
+        color:aliceblue
+    }
+    #pic{
+        display:flex;
+    }
+    #img1{
+        width: 33%;
+        display: block;
+        margin:auto;
+        border-radius: 20px;
+    }
+    #img2{
+        width: 33%;
+        display: block;
+        margin:auto;
+        border-radius: 20px;
+    }
+    #img3{
+        width: 33%;
+        display: block;
+        margin:auto;
+        border-radius: 20px;
+    }
+
+    #jpp{
+        width: 60%;
+        display: block;
+        margin:auto;
+        border-radius: 20px;
+    }
+
+    #third_jpg{
+        width: 60%;
+        display: block;
+        margin:auto;
+        border-radius: 20px;
+    }
+
+    #para3{
+        font-size: 20px;
+        color:aliceblue;
+    }
+
+    #para4{
+        font-size: 20px;
+        color:aliceblue;
+    }
+
+    #para2_1{
+        color: aliceblue;
+    }
+
+    #para2_2{
+        color: aliceblue;
+    }
+
+    #para2_3{
+        color: aliceblue;
+    }
+}
