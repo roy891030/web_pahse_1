@@ -4,6 +4,31 @@
 //     });
 //   });
 
+window.onload = function(){
+  document.getElementById('title').onclick = reload;
+  document.getElementById('place').onmouseover = hoverPlace;
+  document.getElementById('kw2Button').onclick = clickKw2;
+  document.getElementById('p2Button').onclick = clickP2;
+  document.getElementById('dingButton').onclick = clickDing;
+}
+function reload(){
+  window.location.reload();
+}
+function hoverPlace(){
+  var place = document.getElementById('place');
+  var section = document.getElementById('section');
+  place.addEventListener('mouseover', function(){
+      section.style.display = 'block';
+  });
+  section.addEventListener('mouseover', function(){
+      section.style.display = 'block';
+  });
+  section.addEventListener('mouseout', function(){
+      section.style.display = 'none';
+  });
+}
+
+
 $(document).ready(function() {
 
   //  點選右方導覽列時會到指定圖片
@@ -54,6 +79,7 @@ $(document).ready(function() {
       }
   })
 })
+
 
 $(document).ready(function () {
     $("#para2_1").hide();

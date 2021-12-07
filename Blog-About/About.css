@@ -1,0 +1,162 @@
+/* #part2{
+    display: none;
+}
+#part3{
+    display: none;
+} */
+
+img{
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+#titl{
+    margin-top: 60px; /*可以自己設定距離最上方的高度*/
+    margin-bottom:100px;
+}
+nav > ul{
+    font-size: 30px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 12px;
+    list-style-type: none;
+}
+nav > ul > li{
+    margin: 0px 10px;
+    display: inline-block;
+    position: relative;
+    color: #71737a;
+    cursor: pointer;
+}
+nav li:hover{
+    color: #565758;
+}
+nav > ul > ul{
+    width: 350px;
+    height: auto;
+    display: none;/*先設為看謀*/
+    list-style-type: none;
+    position: absolute;
+    top: 125px;
+    left: 595px;
+    background-color:rgb(255, 255, 255);
+    text-align: left;
+    padding: 0;
+}
+nav > ul > ul > li{
+    color: #71737a;
+    margin: 0;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+nav a{
+    color: inherit;/*移除超連結顏色*/
+    text-decoration: none;/*移除超連結底線*/
+    display: block;/*讓<a>填滿<li>*/
+}
+nav > ul > ul > li:hover{
+    color: #565758;
+    background-color: #f3f3f3;
+}
+
+.icon{
+    padding-left: 30%;
+    font-size: 100px;
+}
+.title-positon{
+    padding-left: 30%;
+    font-size: 100px;
+}
+.circle{
+    width:500px;height:500px;
+    border-radius:999em;
+    background-image: url(bridge1.jpeg);
+    position: relative;
+    right: -45%;
+    margin-top: -600px;
+
+    }
+
+
+.bg-color{
+    background-color: #54678F;
+    color: white;
+}
+.little-topic1{
+    font-size: 100px;
+    text-align: center;
+}
+.rectangle {
+    background-color: #2E303E;
+    
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#bridge{
+    width: 50%;
+    height: 50%;
+}
+#traffic{
+    width: 50%;
+    height: 50%;
+    padding-left: 50%;
+}
+#introduce{
+    font-size: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+  }
+.flex-container > div {
+    width: 300px;
+    margin: 30px;
+    text-align: center;
+    height: 300px;
+    /* line-height: 300px; */
+    font-size: 30px;
+  }
+.flex1{
+    margin-left: 100px;
+}
+.flex2{
+    margin-right: 100px;
+}
+#picture1{
+    background-image: url(4.jpg);
+}
+#picture2{
+    background-image: url(5-anni.JPG);
+}
+#picture3{
+    background-image: url(6.jpeg);
+}
+#picture4{
+    background-image: url(roy.JPG);
+}
+#picture5{
+    background-image: url(1.jpg);
+}
+#picture6{
+    background-image: url(3-yayu.jpg);
+}
+.bg-cover{
+    background-size: cover;
+    background-position:  center center;
+}
+
+.ending{
+    background-color: #2E303E;
+    margin: 0px;
+    font-size: 30px;
+    text-align: center
+}
