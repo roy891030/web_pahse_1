@@ -1,0 +1,149 @@
+.nav{
+    position: fixed;
+    top: 50%;
+    right: 0;
+}
+.nav ul li{
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.5) inset;
+    cursor: pointer;
+}
+.nav ul .active{
+    background-color: #43A55F;
+}
+
+
+html{
+    /*設定網頁背景色*/
+    background-color: #2e303e;
+  }
+#big{
+    height: 100vh;
+    width: 101%;
+}
+
+#rectangle {
+    position: relative;
+    top:-780px;
+    left:570px;
+    width: 800px;
+    height: 400px;
+    opacity: 90%;
+    background: #54678f;
+  }
+
+.header{
+    font-size: 90px;
+    color: aliceblue;
+    padding-left: 20px;
+
+}
+.para{
+    position: relative;
+    padding:30px;
+    top:-105px;
+    font-size: 20px;
+    color:aliceblue
+
+}
+
+.tri_pic{
+    position: relative;
+    top:-350px;
+    left:auto;
+    width: 20%;
+}
+/* opacity: 30%;
+filter: blur(5px); */
+#img1{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: relative;
+    /* left: 185px; */
+    left:387px;
+
+}
+
+#img2{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    left:758px;
+}
+
+/* #img3{
+    border-radius: 20px;
+} */
+
+/* #para2{
+    display:flex;
+} */
+
+#para2 #para2_1{
+    position:absolute;
+    top:1400px;
+    left:445px;
+    width: 15%;
+    color:aliceblue;
+} 
+
+#para2 #para2_2{
+    position:absolute;
+    top:1400px;
+    left:820px;
+    width: 15%;
+    color:aliceblue;
+
+}
+
+#para2 #para2_3{
+    position:absolute;
+    top:1400px;
+    left:1200px;
+    width: 15%;
+    color:aliceblue;
+
+} 
+
+
+#jpp{
+    position: relative;
+    float:left;
+    top:-200px;
+    border-radius: 20px;
+    width: 50%;
+}
+
+#para3{
+    position: relative;
+    top:50px;
+    padding:40px;
+    font-size: 30px;
+    opacity: 80%;
+    color:aliceblue;
+}
+
+
+#third_jpg{
+    position: relative;
+    float:right;
+    top:-200px;
+    border-radius: 20px;
+    width: 50%;
+}
+
+#para4{
+    position: relative;
+    top:-300px;
+    font-size: 30px;
+    opacity: 80%;
+    color:aliceblue;
+}
+
+#third{
+    position:relative;
+    top:500px;
+}
