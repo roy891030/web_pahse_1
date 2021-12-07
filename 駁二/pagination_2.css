@@ -30,7 +30,7 @@ html{
     top:-780px;
     left:570px;
     width: 800px;
-    height: 400px;
+    height: 350px;
     opacity: 90%;
     background: #54678f;
   }
@@ -84,7 +84,7 @@ filter: blur(5px); */
 
 #para2 #para2_1{
     position:absolute;
-    top:1400px;
+    top:1380px;
     left:445px;
     width: 15%;
     color:aliceblue;
@@ -92,7 +92,7 @@ filter: blur(5px); */
 
 #para2 #para2_2{
     position:absolute;
-    top:1400px;
+    top:1300px;
     left:820px;
     width: 15%;
     color:aliceblue;
@@ -101,7 +101,7 @@ filter: blur(5px); */
 
 #para2 #para2_3{
     position:absolute;
-    top:1400px;
+    top:1300px;
     left:1200px;
     width: 15%;
     color:aliceblue;
