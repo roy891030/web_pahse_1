@@ -27,10 +27,10 @@ html{
 
 #rectangle {
     position: relative;
-    top:-780px;
+    top:-730px;
     left:570px;
     width: 800px;
-    height: 400px;
+    height: 300px;
     opacity: 90%;
     background: #54678f;
   }
@@ -84,7 +84,7 @@ filter: blur(5px); */
 
 #para2 #para2_1{
     position:absolute;
-    top:1400px;
+    top:1300px;
     left:445px;
     width: 15%;
     color:aliceblue;
@@ -92,7 +92,7 @@ filter: blur(5px); */
 
 #para2 #para2_2{
     position:absolute;
-    top:1400px;
+    top:1300px;
     left:820px;
     width: 15%;
     color:aliceblue;
@@ -101,7 +101,7 @@ filter: blur(5px); */
 
 #para2 #para2_3{
     position:absolute;
-    top:1400px;
+    top:1300px;
     left:1200px;
     width: 15%;
     color:aliceblue;
@@ -120,6 +120,7 @@ filter: blur(5px); */
 #para3{
     position: relative;
     top:50px;
+    left:50px;
     padding:40px;
     font-size: 30px;
     opacity: 80%;
@@ -137,7 +138,8 @@ filter: blur(5px); */
 
 #para4{
     position: relative;
-    top:-300px;
+    top:-200px;
+
     font-size: 30px;
     opacity: 80%;
     color:aliceblue;
