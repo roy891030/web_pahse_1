@@ -11,7 +11,7 @@ window.onload = function(){
   document.getElementById('dingButton').onclick = clickDing;
 }
 function reload(){
-  window.location.reload();
+  window.location.href='../../web_pahse_1/web travel blog/home.html';
 }
 function hoverPlace(){
   var place = document.getElementById('place');
